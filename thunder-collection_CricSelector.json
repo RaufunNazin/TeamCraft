@@ -1,0 +1,174 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "CricSelector",
+    "dateExported": "2024-02-15T14:31:28.624Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3b9aa232-4a24-4f56-9ef8-b82e35230d15",
+            "colId": "8b58c687-fece-4cb4-ad98-51973260663a",
+            "containerId": "",
+            "name": "Register",
+            "url": "http://127.0.0.1:8000/register/",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-15T14:29:56.341Z",
+            "modified": "2024-02-15T14:29:56.341Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"username\": \"john\",\n    \"name\": \"John\",\n    \"password\": \"password\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7925e4ff-f975-4342-9d85-3907cfb63f02",
+            "colId": "8b58c687-fece-4cb4-ad98-51973260663a",
+            "containerId": "",
+            "name": "Login",
+            "url": "http://127.0.0.1:8000/login/",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-15T14:30:00.750Z",
+            "modified": "2024-02-15T14:30:00.750Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"username\": \"john\",\n    \"password\": \"password\"\n}\n",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b04bfc02-88d9-4c03-9a9b-fd4bec862a55",
+            "colId": "8b58c687-fece-4cb4-ad98-51973260663a",
+            "containerId": "",
+            "name": "User",
+            "url": "http://127.0.0.1:8000/user/5/",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-15T14:30:09.182Z",
+            "modified": "2024-02-15T14:30:09.182Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE3MDc4Mzk4Nzh9.M7yFnv0Z5jz8Hh3PWStm6ewsMeIPM-taKdLY_w4Bkvg",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "54a8481c-9d20-48db-bd65-0096bdd0ac09",
+            "colId": "8b58c687-fece-4cb4-ad98-51973260663a",
+            "containerId": "",
+            "name": "Players",
+            "url": "http://127.0.0.1:8000/players/",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2024-02-15T14:30:13.703Z",
+            "modified": "2024-02-15T14:30:13.703Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE3MDc4Mzk4Nzh9.M7yFnv0Z5jz8Hh3PWStm6ewsMeIPM-taKdLY_w4Bkvg"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "933bd33a-bd60-415a-a7e7-5edb9017d78c",
+            "colId": "8b58c687-fece-4cb4-ad98-51973260663a",
+            "containerId": "",
+            "name": "Player by type",
+            "url": "http://127.0.0.1:8000/players/bowler/",
+            "method": "GET",
+            "sortNum": 50000,
+            "created": "2024-02-15T14:30:17.567Z",
+            "modified": "2024-02-15T14:30:17.567Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE3MDc4Mzk4Nzh9.M7yFnv0Z5jz8Hh3PWStm6ewsMeIPM-taKdLY_w4Bkvg",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "cd35bc48-bbba-4bd7-a96f-1a03f3a2c4db",
+            "colId": "8b58c687-fece-4cb4-ad98-51973260663a",
+            "containerId": "",
+            "name": "Player by name",
+            "url": "http://127.0.0.1:8000/search/shakib/",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-02-15T14:30:23.415Z",
+            "modified": "2024-02-15T14:30:23.415Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozLCJleHAiOjE3MDc4Mzk4Nzh9.M7yFnv0Z5jz8Hh3PWStm6ewsMeIPM-taKdLY_w4Bkvg",
+                    "isDisabled": true
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "38de8677-5e21-4409-a849-dca19674f4be",
+            "colId": "8b58c687-fece-4cb4-ad98-51973260663a",
+            "containerId": "",
+            "name": "Add players",
+            "url": "http://127.0.0.1:8000/addplayers/5/",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-02-15T14:30:30.495Z",
+            "modified": "2024-02-15T14:30:30.495Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3MDc4MzgyMjN9.PcI_8bfnYAj4cLFhzHh8gYHVAqmsuTP9JMiIlK8tXmw"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"team_type\": \"Test\",\n    \"player_ids\": [17]\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "d87601c7-0e46-4216-a494-d8ec2fef94d5",
+            "colId": "8b58c687-fece-4cb4-ad98-51973260663a",
+            "containerId": "",
+            "name": "Remove players",
+            "url": "http://127.0.0.1:8000/removeplayers/5/ODI/",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-02-15T14:30:37.023Z",
+            "modified": "2024-02-15T14:30:37.023Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxLCJleHAiOjE3MDc4MzgyMjN9.PcI_8bfnYAj4cLFhzHh8gYHVAqmsuTP9JMiIlK8tXmw"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"player_ids\": [11]\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
