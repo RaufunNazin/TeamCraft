@@ -1,4 +1,8 @@
-# How to run
+# TeamCraft
+
+## Description
+
+a creative method for choosing cricket players' teams that is based on normalizing player statistics and grading players overall according to the manager's weighted assessment of their various attributes.
 
 ## Prerequisites
 
